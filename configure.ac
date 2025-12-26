@@ -1,7 +1,8 @@
 AC_INIT([libads], [0.1])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
-AC_PROG_LIBTOOL
 AC_PROG_CC
+AM_PROG_AR
+AC_PROG_LIBTOOL
 
 CFLAGS="${CFLAGS} -Wall" 
 

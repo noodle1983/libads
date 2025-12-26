@@ -13,7 +13,7 @@ BUILD
 clone the git repository present in github: https://github.com/gass/libads
 build with:
 autoreconf -i -s
-./configure
+CFLAGS=-DDEBUGPRINT ./configure
 make
 make install
 
